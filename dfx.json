@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "smartContract_backend": {
+      "candid": "src/smartContract_backend/smartContract_backend.did",
+      "package": "smartContract_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
